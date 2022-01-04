@@ -1,0 +1,61 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+</head>
+<body>
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header">
+                <b>Payment selection</b>
+            </div>
+            <div class="card-body">
+                <div id="accordion">
+                    <div class="custom-card">
+                        <div class="custom-card-header" id="invoice">
+                            <input type="checkbox" class="checkbox-round" id="invoiceCheckbox" autocomplete="off" /> By invoice
+                        </div>
+                        <div class="card-body" id="invoiceBody">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                        </div>
+                    </div>
+                    <div class="custom-card">
+                        <div class="custom-card-header" id="cc">
+                            <input type="checkbox" class="checkbox-round" id="cardCheckbox" autocomplete="off"/> Credit card
+
+                            <img width="50" align="right" src="img/visa.png">
+                            <img width="50" align="right" src="img/mc.png">
+
+                        </div>
+                        <div class="card-body" id="cardBody">
+                            <iframe width="100%" height="700" src="https://www.computop-paygate.com/payssl.aspx?MerchantID=tkloy_test&Len=297&Data=8F32C8146C9FBB45D428A949939DE3C8933ABAD2DFEB6A90606B09C177D02D267833FE83B3CE1845DC7F09E4EF4805F7CB6CEDD988D6B6815AB84289A00AE231D06E55A5BF83F91D01A2A0AE93B4ABE7DCE411F7ACE775008D3A9FF811AB7CEFD7927B216D370180D7001C5784788785F7EB9F259A5D3C3721DD4FE0524B38332EE932826E9BF39601365EF1687AEEC4D2143DBD191B75A551BFD265149D54BBA596BD0C3A372D675D4424E87D1B2F6678FB01DAF4BFDADD3750435E741C02B7D47C3691CD6823D9E5E5D272ACEC5E0AA687B87177A37509DF14080A7A5A65862DE53F9851566B06CCA784A139287FC82DADC97A736ADFBBA89E9AA00F77983367622C670B850B16AB4B3FE5824547ABF2C84A9B06C5353F8DFAF587E23118A960BD8090C459845D0ACB97595074F8AC&template=ct_responsive"></iframe>
+                        </div>
+                    </div>
+                    <div class="custom-card">
+                        <div class="custom-card-header" id="iDEAL">
+                            <input type="checkbox" class="checkbox-round" id="idealCheckbox" autocomplete="off" /> iDEAL
+
+                            <img width="50" align="right" src="img/ideal.png">
+
+                        </div>
+                        <div class="card-body custom-card-text" id="idealBody">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            <div class="select-wrap">
+                                <label>Bank selection</label>
+                                <select name="color" style="width: 100%;">
+                                    <option value="abn">ABN Amro</option>
+                                    <option value="ing">ING</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

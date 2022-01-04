@@ -1,0 +1,62 @@
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+    .checkbox-round:checked {
+        background-color: gray;
+    }
+
+
+.custom-card-header {
+    background-color: #ecf0f5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 60px;
+}
+
+.custom-card-text {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.custom-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.select-wrap {
+    border: 1px solid #777;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 0 5px 5px;
+    width: 200px;
+    background-color: white;
+}
+
+    .select-wrap label {
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #777;
+        padding: 2px 8px 0;
+    }
+
+select {
+    background-color: white;
+    border: 0px;
+}

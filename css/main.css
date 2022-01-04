@@ -28,6 +28,11 @@
     padding-left: 10px;
 }
 
+.pay-button {
+    padding-top: 5px;
+    float: right;
+}
+
 .custom-card {
     position: relative;
     display: flex;
